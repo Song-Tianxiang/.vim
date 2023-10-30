@@ -1,21 +1,3 @@
-let lspServers = [
-			\ #{
-			\    name: 'rustlang',
-			\    filetype: ['rust'],
-			\    path: 'rust-analyzer',
-			\    args: [],
-			\    syncInit: v:true
-			\  },
-			\ #{
-			\	  name: 'clang',
-			\	  filetype: ['c', 'cpp'],
-			\	  path: 'clangd',
-			\	  args: ['--background-index']
-			\  }
-			\]
-autocmd VimEnter * call LspAddServer(lspServers)
-
-
 let lspOptions = (#{
 	\   aleSupport: v:false,
 	\   autoComplete: v:true,
@@ -54,3 +36,20 @@ let lspOptions = (#{
 	\   useBufferCompletion: v:false,
 	\ })
 autocmd VimEnter * call LspOptionsSet(lspOptions)
+
+let lspServers = [
+			\ #{
+			\    name: 'rustlang',
+			\    filetype: ['rust'],
+			\    path: 'rust-analyzer',
+			\    args: [],
+			\    syncInit: v:true
+			\  },
+			\ #{
+			\	  name: 'clang',
+			\	  filetype: ['c', 'cpp'],
+			\	  path: 'clangd',
+			\	  args: ['--background-index']
+			\  }
+			\]
+autocmd VimEnter * call LspAddServer(lspServers)

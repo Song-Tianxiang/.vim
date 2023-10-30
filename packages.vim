@@ -13,6 +13,7 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 call plug#begin()
 
 Plug 'https://gitee.com/songtxiang/vim-nordtheme.git'
+Plug 'https://gitee.com/songtxiang/Zenburn.git'
 
 Plug 'https://gitee.com/songtxiang/vim-togglecursor.git'
 
