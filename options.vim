@@ -16,3 +16,5 @@ set termguicolors
 set background=dark
 
 set timeout timeoutlen=3000 ttimeoutlen=100
+
+set shortmess+=I
