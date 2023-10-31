@@ -10,8 +10,6 @@ set belloff=all
 set ignorecase
 set smartcase
 
-set autochdir
-
 set termguicolors
 set background=dark
 
