@@ -1,3 +1,6 @@
+" mis
+nnoremap <Leader>q :quit<CR>
+
 " fzf
 nnoremap <Leader>fb :Buffers!<CR>
 nnoremap <Leader>ff :Files!<CR>
