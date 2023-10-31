@@ -26,7 +26,7 @@ git clone https://github.com/Song-Tianxiang/.vim.git ~/.vim
 ```
 重启 Vim，需要一段时间下载插件(大部分插件从github拉取，需要网络通畅)，然后新的配置将生效。
 
-`fzf.vim` 的 `:Rg` 命令 需要 `ripgrep`, 可选 `bat` 做预览窗口语法高亮。
+[fzf.vim](https://github.com/junegunn/fzf.vim) 的 `:Rg` 命令 需要 `ripgrep`, 可选 `bat` 做预览窗口语法高亮。
 
 `lsp` 需要自己安装对应语言的`lsp server`，比如`clangd`，`rust-analyzer`等。
 
