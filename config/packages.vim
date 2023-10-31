@@ -10,34 +10,34 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 
 call plug#begin('~/.vim/data/plug')
 
-Plug 'https://github.com/nordtheme/vim.git'
-Plug 'https://github.com/jnurmine/Zenburn.git'
+Plug 'nordtheme/vim'
+Plug 'jnurmine/Zenburn'
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'https://github.com/lifepillar/vim-gruvbox8.git'
+Plug 'lifepillar/vim-gruvbox8'
 
-Plug 'https://github.com/jszakmeister/vim-togglecursor.git'
+Plug 'jszakmeister/vim-togglecursor'
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-Plug 'https://github.com/tpope/vim-rsi.git'
+Plug 'tpope/vim-rsi'
 
-Plug 'https://github.com/airblade/vim-gitgutter.git'
-Plug 'https://github.com/tpope/vim-fugitive.git'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 
-Plug 'https://github.com/yegappan/lsp.git'
+Plug 'yegappan/lsp'
 
-Plug 'https://github.com/rust-lang/rust.vim.git'
+Plug 'rust-lang/rust.vim'
 
-Plug 'https://github.com/sheerun/vim-polyglot.git'
+Plug 'sheerun/vim-polyglot'
 
-Plug 'https://github.com/cohama/lexima.vim.git'
-Plug 'https://github.com/tpope/vim-surround.git'
-Plug 'https://github.com/tpope/vim-commentary.git'
+Plug 'cohama/lexima.vim'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
 
-Plug 'https://github.com/tpope/vim-repeat.git'
+Plug 'tpope/vim-repeat'
 
-Plug 'https://github.com/vim-autoformat/vim-autoformat.git'
+Plug 'vim-autoformat/vim-autoformat'
 
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
