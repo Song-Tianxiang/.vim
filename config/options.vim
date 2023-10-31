@@ -13,7 +13,7 @@ set smartcase
 set termguicolors
 set background=dark
 
-set timeout timeoutlen=3000 ttimeoutlen=100
+set timeout timeoutlen=9000 ttimeoutlen=100
 
 set shortmess+=I
 
@@ -25,3 +25,9 @@ endif
 
 set hidden
 
+let g:netrw_home="~/.vim/data/netrw"
+if !isdirectory(expand(g:netrw_home))
+    call mkdir(expand(g:netrw_home), 'p')
+endif
+
+set viminfofile=~/.vim/data/viminfo

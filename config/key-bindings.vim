@@ -4,6 +4,7 @@ nnoremap <Leader>x :quit<CR>
 " fzf
 nnoremap <Leader>fb :Buffers!<CR>
 nnoremap <Leader>ff :Files!<CR>
+nnoremap <Leader>fg :GFiles!<CR>
 nnoremap <Leader>fh :History!<CR>
 nnoremap <Leader>fl :BLines!<CR>
 nnoremap <Leader>fL :Lines!<CR>
@@ -34,30 +35,32 @@ nnoremap <Leader>lgt :LspGotoTypeDef<CR>
 nnoremap <Leader>lpt :LspPeekTypeDef<CR>
 
 " floaterm
-nnoremap <Leader>tt :FloatermToggle<CR>
-tnoremap <Leader>tt <C-\><C-N>:FloatermToggle<CR>
-nnoremap <Leader>tN :FloatermNew<CR>
-tnoremap <Leader>tN <C-\><C-N>:FloatermNew<CR>
+nnoremap <silent> <Leader>tt :FloatermToggle<CR>
+tnoremap <silent> <Leader>tt <C-\><C-N>:FloatermToggle<CR>
+nnoremap <silent> <Leader>tN :FloatermNew<CR>
+tnoremap <silent> <Leader>tN <C-\><C-N>:FloatermNew<CR>
 
-nnoremap <Leader>tp :FloatermPrev<CR>
-tnoremap <Leader>tp <C-\><C-N>:FloatermPrev<CR>
-nnoremap <Leader>tn :FloatermNext<CR>
-tnoremap <Leader>tn <C-\><C-N>:FloatermNext<CR>
+nnoremap <silent> <Leader>tp :FloatermPrev<CR>
+tnoremap <silent> <Leader>tp <C-\><C-N>:FloatermPrev<CR>
+nnoremap <silent> <Leader>tn :FloatermNext<CR>
+tnoremap <silent> <Leader>tn <C-\><C-N>:FloatermNext<CR>
 
-nnoremap <Leader>tf :FloatermFirst<CR>
-tnoremap <Leader>tf <C-\><C-N>:FloatermFirst<CR>
-nnoremap <Leader>tl :FloatermLast<CR>
-tnoremap <Leader>tl <C-\><C-N>:FloatermLast<CR>
+nnoremap <silent> <Leader>tf :FloatermFirst<CR>
+tnoremap <silent> <Leader>tf <C-\><C-N>:FloatermFirst<CR>
+nnoremap <silent> <Leader>tl :FloatermLast<CR>
+tnoremap <silent> <Leader>tl <C-\><C-N>:FloatermLast<CR>
 
-nnoremap <Leader>tk :FloatermKill<CR>
-tnoremap <Leader>tk <C-\><C-N>:FloatermKill<CR>
-nnoremap <Leader>th :FloatermHide<CR>
-tnoremap <Leader>th <C-\><C-N>:FloatermHide<CR>
-nnoremap <Leader>ts :FloatermShow<CR>
-tnoremap <Leader>ts <C-\><C-N>:FloatermShow<CR>
+nnoremap <silent> <Leader>tk :FloatermKill<CR>
+tnoremap <silent> <Leader>tk <C-\><C-N>:FloatermKill<CR>
+nnoremap <silent> <Leader>tK :FloatermKill!<CR>
+tnoremap <silent> <Leader>tK <C-\><C-N>:FloatermKill!<CR>
+nnoremap <silent> <Leader>th :FloatermHide<CR>
+tnoremap <silent> <Leader>th <C-\><C-N>:FloatermHide<CR>
+nnoremap <silent> <Leader>ts :FloatermShow<CR>
+tnoremap <silent> <Leader>ts <C-\><C-N>:FloatermShow<CR>
 
 " quickfix
-nnoremap <Leader>qp <Plug>(qf_qf_previous)
-nnoremap <Leader>qn <Plug>(qf_qf_next)
-nnoremap <Leader>qs <Plug>(qf_qf_switch)
-nnoremap <Leader>qq <Plug>(qf_qf_toggle)
+nnoremap <silent> <Leader>qp <Plug>(qf_qf_previous)
+nnoremap <silent> <Leader>qn <Plug>(qf_qf_next)
+nnoremap <silent> <Leader>qs <Plug>(qf_qf_switch)
+nnoremap <silent> <Leader>qq <Plug>(qf_qf_toggle)

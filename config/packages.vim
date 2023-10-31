@@ -49,5 +49,9 @@ Plug 'voldikss/fzf-floaterm'
 
 Plug 'romainl/vim-qf'
 
+Plug 'airblade/vim-rooter'
+
+Plug 'ararslan/license-to-vim'
+
 call plug#end()
 
