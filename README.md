@@ -7,12 +7,12 @@
 1. `vimrc`: 加载 `defaults.vim` 然后 `source` `config` 目录下的配置文件。
 2. `after/ftplugin`: 与文件类型相关配置。
 3. `config/`: 主要的配置文件存放目录，最好每个文件都看看。
-    1. `options.vim`: 一些基本的全局选项的设置。
-    2. `after.vim`: 用于自定义和覆盖插件的默认设置，colorscheme也在这选择。
-    3. `autocm`ds.vim: 包含自动命令，这些命令会在特定事件发生时触发。
-    4. `key-bindings.vim`: 自定义键绑定，目前定义了一些`lsp`，`fzf`和`quickfix`。 推荐用vim命令栏内置的tab补全，命令使用频繁再定义键绑定。
-    5. `lsp.vim`：配置与语言服务器协议（LSP）相关的设置，用于提供语法检查和自动完成等功能。
-    6. `packages.vim`：用[vim-plug](https://github.com/junegunn/vim-plug)做插件管理。
+    * `options.vim`: 一些基本的全局选项的设置。
+    * `after.vim`: 用于自定义和覆盖插件的默认设置，`colorscheme`也在这选择。
+    * `autocmds.vim`: 包含自动命令，这些命令会在特定事件发生时触发。
+    * `key-bindings.vim`: 自定义键绑定，目前定义了一些`lsp`，`fzf`和`quickfix`。 推荐用vim命令栏内置的tab补全，命令使用频繁再定义键绑定。
+    * `lsp.vim`：配置与语言服务器协议（LSP）相关的设置，用于提供语法检查和自动完成等功能。
+    * `packages.vim`：用[vim-plug](https://github.com/junegunn/vim-plug)做插件管理。
 
 另外，安装后，目录下会多一个`data`文件夹用来放置一些vim保存编辑信息的文件。
 
@@ -28,7 +28,7 @@ git clone https://github.com/Song-Tianxiang/.vim.git ~/.vim
 
 `fzf.vim` 的 `:Rg` 命令 需要 `ripgrep`, 可选 `bat` 做预览窗口语法高亮。
 
-`lsp` 需要自己安装对应语言的lsp server，比如`clangd`，`rust-analyzer`等。
+`lsp` 需要自己安装对应语言的`lsp server`，比如`clangd`，`rust-analyzer`等。
 
 ## 自定义
 vim的所有配置都放`~/.vim`文件夹下了，不再用`~/.vimrc`，不然会干扰`~/.vim/vimrc`的读取。
@@ -41,6 +41,6 @@ vim的所有配置都放`~/.vim`文件夹下了，不再用`~/.vimrc`，不然�
 这些配置文件是根据 `UNLICENSE` 许可证创建的，你可以根据需要自由使用和分发它们。查看 `LICENSE` 文件以获取详细信息。
 
 ## 贡献
-如果你有任何改进或建议，欢迎提交 issue 或 pull 请求。我很乐意听取你的反馈并不断改进这些配置。
+如果你有任何改进或建议，欢迎提交 `issue` 或 `pull` 请求。我很乐意听取你的反馈并不断改进这些配置。
 
 希望你喜欢使用我的 Vim 配置！如果你有任何问题，请随时联系我。
