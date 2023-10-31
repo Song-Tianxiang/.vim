@@ -37,7 +37,10 @@ Plug 'tpope/vim-commentary'
 
 Plug 'tpope/vim-repeat'
 
-Plug 'vim-autoformat/vim-autoformat'
+" Plug 'vim-autoformat/vim-autoformat'
+Plug 'google/vim-maktaba'
+Plug 'google/vim-codefmt'
+Plug 'google/vim-glaive'
 
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
